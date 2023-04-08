@@ -1,9 +1,4 @@
-import {
-  createFeatureSelector,
-  createReducer,
-  createSelector,
-  on,
-} from '@ngrx/store';
+import { createReducer, on } from '@ngrx/store';
 import { Post } from 'src/app/Models/Post';
 import {
   addPostSucceeded,

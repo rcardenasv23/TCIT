@@ -40,13 +40,11 @@ export class PostEffects {
   filterPost$ = createEffect(() =>
     this.action$.pipe(
       ofType(filterPosts),
-      exhaustMap(({ filter }) =>
+      concatMap(({ text }) =>
         this.postService.getPosts().pipe(
           map((posts: Post[]) =>
             filterPostsSucceeded(
-              posts.filter((post) =>
-                post.name.includes(filter.filter) ? post : null
-              )
+              posts.filter((post) => post.name.includes(text))
             )
           ),
           catchError(() => EMPTY)

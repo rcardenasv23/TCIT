@@ -46,7 +46,7 @@ export class HomeComponent implements OnInit {
   }
 
   filterPosts() {
-    this.store.dispatch(filterPosts(this.search.value));
+    this.store.dispatch(filterPosts(this.search.value.filter));
     this.searchClear = false;
   }
   cleanSearch() {

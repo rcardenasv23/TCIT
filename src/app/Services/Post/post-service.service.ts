@@ -7,7 +7,7 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
   providedIn: 'root',
 })
 export class PostServiceService {
-  url = 'api/posts/';
+  url = 'api/posts';
 
   constructor(private http: HttpClient) {}
 
@@ -30,7 +30,7 @@ export class PostServiceService {
   }
 
   deletePost(postId: string): Observable<any> {
-    return this.http.delete<Post>(`${this.url}/${postId}`).pipe(
+    return this.http.delete(`${this.url}/${postId}`).pipe(
       catchError((error: HttpErrorResponse) => {
         console.error(error);
         throw error;
