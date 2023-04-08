@@ -11,6 +11,6 @@ To install the dependencies must be run the command "npm install" or "yarn insta
 
 ## Development server
 
-Correr el comando "npm start" or "yarn start" para el servidor de prueba y navegar a "http://localhost:4200/". 
+Correr el comando "npm start" or "yarn start" para el servidor de prueba y navegar a "http://localhost:4200/".  
 Run "npm start" or "yarn start" for a dev server and navigate to "http://localhost:4200/".  
 
