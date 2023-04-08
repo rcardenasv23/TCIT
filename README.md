@@ -1,4 +1,4 @@
-# TCIT
+# Rodrigo Cárdenas Valdivia - TCIT
 
 Proyecto solución a "Challenge Front-end Developer (Angular)" para postulación a TCIT.  
 Solution to "Challenge Front-end Developer (Angular)" for application to TCIT.  
