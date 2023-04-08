@@ -5,7 +5,7 @@ Solution to "Challenge Front-end Developer (Angular)" for application to TCIT.
 
 ## Instalar dependencias / Install Dependencies 
 
-Para instalar las dependencias se debe ingresar el comando "npm install" o "yarn install" en la consola.
+Para instalar las dependencias se debe ingresar el comando "npm install" o "yarn install" en la consola.\n
 To install the dependencies must be run the command "npm install" or "yarn install" in the console.
 
 
